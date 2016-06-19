@@ -8,9 +8,12 @@ export default React.createClass({
   render() {
     console.log('app component rendering');
     return (
-        <div>
-          <Header />
-        </div>
+          <div id='app-container'>
+
+
+            <Header />
+
+          </div>
       )
     }
 
