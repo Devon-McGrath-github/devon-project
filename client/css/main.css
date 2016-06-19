@@ -1,6 +1,8 @@
 body {
   height: 100%;
-  background-color: blue;
+  background-image: url('https://drscdn.500px.org/photo/119711361/m%3D2048/ee95ce594ec9561c5e54ebd30ab7926d');
+  background-color: transparent;
+  background-repeat: no-repeat
 }
 
 h1 {
@@ -9,8 +11,4 @@ h1 {
 
 p {
   color: green;
-}
-
-#image {
-  background-color: red;
 }

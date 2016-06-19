@@ -5,7 +5,7 @@ export default React.createClass({
     console.log('header component rendering')
     return (
       <div id='header'>
-        <p>something</p>
+        <h1>something</h1>
       </div>
     )
   }
