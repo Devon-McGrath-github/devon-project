@@ -18,17 +18,52 @@ h1 {
 }
 
 p {
+  margin-top: 0px;
   text-shadow: 0 0 5px lightgreen;
   width: 100%;
   color: black;
 }
 
-#todo_container {
+#header {
     background-color: grey;
     /* text is affected by opacity as well*/
-    opacity: 0.5;
+    opacity: 0.8;
     width: 200px;
     padding-left: 4px;
     /*border radius for rounded corners*/
     border-radius: 5px;
+}
+
+#todo_container {
+    background-color: grey;
+    /* text is affected by opacity as well*/
+    opacity: 0.8;
+    width: 200px;
+    padding-left: 4px;
+    /*border radius for rounded corners*/
+    border-radius: 5px;
+}
+
+#weather_container {
+    background-color: grey;
+    /* text is affected by opacity as well*/
+    opacity: 0.8;
+    width: 200px;
+    padding-left: 4px;
+    /*border radius for rounded corners*/
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: grey;
+    /* text is affected by opacity as well*/
+    opacity: 0.8;
+    width: 200px;
+    padding-left: 4px;
+    /*border radius for rounded corners*/
+    border-radius: 5px;
+}
+
+.weather_heading {
+    margin-bottom: 2px;
 }

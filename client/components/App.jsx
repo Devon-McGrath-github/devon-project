@@ -9,15 +9,15 @@ export default React.createClass({
   render() {
     console.log('app component rendering');
     return (
-          <div id='app-container'>
+        <div id='app-container'>
             <Header />
             <Todo_component />
             <Weather />
 
-            <div class='footer'>
-                <p>artist info</p>
+            <div className='footer'>
+                <h2>artist info</h2>
             </div>
-          </div>
-      )
-    }
+        </div>
+    )
+  }
 })

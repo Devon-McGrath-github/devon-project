@@ -6,14 +6,10 @@ export default React.createClass({
     return (
         <div id='todo_container'>
             <h2>To Do List:</h2>
-            <table>
-                <tr>
-                    <th>placeholder</th>
-                </tr>
-                <tr>
-                    <td>heres an item</td>
-                </tr>
-            </table>
+            <ul>
+                <li>placeholder</li>
+                <li>heres an item</li>
+            </ul>
         </div>
     )
   }
