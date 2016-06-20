@@ -6,7 +6,6 @@ html {
     background-size: cover;
 }
 
-
 #app-container {
   margin: 0;
   padding: 0;
@@ -19,5 +18,16 @@ h1 {
 }
 
 p {
-  color: green;
+  text-shadow: 0 0 5px lightgreen;
+  width: 100%;
+  color: black;
+}
+
+#todo_container {
+    background-color: grey;
+    opacity: 0.5;
+    width: 200px;
+    padding-left: 4px;
+    /*border radius for rounded corners*/
+    border-radius: 5px;
 }
