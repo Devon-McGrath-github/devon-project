@@ -2,7 +2,6 @@ import React from 'react'
 
 import api from '../api'
 import Header from './Header'
-import Scrollbar from './Scrollbar'
 
 export default React.createClass({
   render() {
