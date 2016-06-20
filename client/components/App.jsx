@@ -2,6 +2,7 @@ import React from 'react'
 
 import api from '../api'
 import Header from './Header'
+import Todo_component from './Todo'
 
 export default React.createClass({
   render() {
@@ -9,17 +10,7 @@ export default React.createClass({
     return (
           <div id='app-container'>
             <Header />
-            <div id='todo_container'>
-                <h2>To Do List:</h2>
-                <table>
-                    <tr>
-                        <th>placeholder</th>
-                    </tr>
-                    <tr>
-                        <td>heres an item</td>
-                    </tr>
-                </table>
-            </div>
+            <Todo_component />
 
             <div id='weather_container'>
                 <h2>Weather API</h2>
@@ -32,5 +23,4 @@ export default React.createClass({
           </div>
       )
     }
-
 })

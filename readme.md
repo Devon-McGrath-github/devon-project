@@ -1,5 +1,5 @@
 #Personal Project
-##by Devon McGrath
+by Devon McGrath
 
 #Impulse
 
@@ -11,4 +11,4 @@ Hopefully you will find it useful as well.
 ##Idea
 
 heavily based off momentum, a fantastic chrome extension and the inspiration for
-much of this project 
+much of this project
