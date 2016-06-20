@@ -3,6 +3,7 @@ import React from 'react'
 import api from '../api'
 import Header from './Header'
 import Todo_component from './Todo'
+import Weather from './Weather'
 
 export default React.createClass({
   render() {
@@ -11,11 +12,7 @@ export default React.createClass({
           <div id='app-container'>
             <Header />
             <Todo_component />
-
-            <div id='weather_container'>
-                <h2>Weather API</h2>
-                <p>it'll go here</p>
-            </div>
+            <Weather />
 
             <div class='footer'>
                 <p>artist info</p>

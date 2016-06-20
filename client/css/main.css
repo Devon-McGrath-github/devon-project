@@ -25,6 +25,7 @@ p {
 
 #todo_container {
     background-color: grey;
+    /* text is affected by opacity as well*/
     opacity: 0.5;
     width: 200px;
     padding-left: 4px;
