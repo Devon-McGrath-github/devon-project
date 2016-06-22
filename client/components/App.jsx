@@ -7,9 +7,19 @@ import Weather from './Weather'
 
 export default React.createClass({
   render() {
-    console.log('app component rendering');
+    var backgroundImg = {
+        minHeight: '100%',
+        height: '100%',
+        backgroundImage: 'url(' + 'https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg' + ')',
+        backgroundColor: 'transparent',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+    }
+    console.log('app component rendering')
     return (
-        <div id='app-container'>
+        <div style={backgroundImg} id='app-container'>
+
             <Header />
             <Todo_component />
             <Weather />
