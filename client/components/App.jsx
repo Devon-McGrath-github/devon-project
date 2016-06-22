@@ -8,7 +8,6 @@ import Weather from './Weather'
 export default React.createClass({
   render() {
     var backgroundImg = {
-        minHeight: '100%',
         height: '100%',
         backgroundImage: 'url(' + 'https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg' + ')',
         backgroundColor: 'transparent',
