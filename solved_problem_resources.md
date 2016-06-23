@@ -14,3 +14,6 @@ Background Conundrum part 2:
 Inline styling for react
 
 https://facebook.github.io/react/tips/inline-styles.html
+
+
+====================> refer to readme.md
