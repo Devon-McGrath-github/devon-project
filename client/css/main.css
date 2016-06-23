@@ -20,6 +20,7 @@ p {
   width: 100%;
   color: black;
 }
+
 #backgroundImage {
     /*this stops the margin of whatever item is inside the div from affecting the div (without any padding, this div takes the margin
     of the whatever its child is). For example, when weather API had no padding/margin, and this had no padding, there was a white line
@@ -67,4 +68,8 @@ p {
 
 .weather_heading {
     margin-bottom: 2px;
+}
+
+.fadein {
+    -webkit-animation: fadein 5s ease 0s forwards
 }

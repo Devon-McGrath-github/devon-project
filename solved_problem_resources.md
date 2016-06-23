@@ -14,3 +14,14 @@ Background Conundrum part 2:
 Inline styling for react
 
 https://facebook.github.io/react/tips/inline-styles.html
+
+
+--------------------------
+
+Background Conundrum part 3:
+
+Image compression.
+ 6.6 mb image as background, as one can imagine that is causing a slight, but noticeable loading time.
+ Need to find a way to compress the images I recieve from the API, whilst either still having them hosted
+ online (so I can link with a simple url) or to upload the images i recieve from the api myself after
+ they have been compressed.

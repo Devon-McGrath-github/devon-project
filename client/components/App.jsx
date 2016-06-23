@@ -7,9 +7,11 @@ import Weather from './Weather'
 
 export default React.createClass({
   render() {
-    var backgroundImg = {
+    let bgimage = 'https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg'
+
+    let  backgroundImg = {
         height: '100%',
-        backgroundImage: 'url(' + 'https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg' + ')',
+        backgroundImage: 'url(' + bgimage + ')',
         backgroundColor: 'transparent',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -18,14 +20,16 @@ export default React.createClass({
 
     console.log('app component rendering')
     return (
-        <div style={backgroundImg} id='backgroundImage'>
-            <Weather />
-            <CenterContent />
-            <Todo_component />
+        <div style={backgroundImg} id='backgroundImage' className='fadein'>
+            {/* <div className='fadein'> */}
+                <Weather />
+                <CenterContent />
+                <Todo_component />
 
-            <div className='footer'>
-                <h2>artist info</h2>
-            </div>
+                <div className='footer'>
+                    <h2>artist info</h2>
+                </div>
+            {/* </div> */}
         </div>
     )
   }
