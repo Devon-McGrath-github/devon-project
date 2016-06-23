@@ -1,7 +1,7 @@
 import React from 'react'
 
 import api from '../api'
-import Header from './Header'
+import CenterContent from './CenterContent'
 import Todo_component from './Todo'
 import Weather from './Weather'
 
@@ -13,15 +13,15 @@ export default React.createClass({
         backgroundColor: 'transparent',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
     }
+
     console.log('app component rendering')
     return (
-        <div style={backgroundImg} id='app-container'>
-
-            <Header />
-            <Todo_component />
+        <div style={backgroundImg} id='backgroundImage'>
             <Weather />
+            <CenterContent />
+            <Todo_component />
 
             <div className='footer'>
                 <h2>artist info</h2>

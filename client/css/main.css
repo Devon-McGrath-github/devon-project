@@ -20,12 +20,19 @@ p {
   width: 100%;
   color: black;
 }
+#backgroundImage {
+    /*this stops the margin of whatever item is inside the div from affecting the div (without any padding, this div takes the margin
+    of the whatever its child is). For example, when weather API had no padding/margin, and this had no padding, there was a white line
+    gap of about 10 px which is the default for a h2. The h2, was from the weather API component*/
+    padding-top: 1px
+}
 
 #header {
     background-color: #eee;
     /* text is affected by opacity as well*/
     opacity: 0.8;
     width: 200px;
+    margin-top: 5px;
     padding-left: 4px;
     /*border radius for rounded corners*/
     border-radius: 5px;
@@ -35,6 +42,7 @@ p {
     background-color: #eee;
     /* text is affected by opacity as well*/
     width: 200px;
+    margin-top: 5px;
     padding-left: 4px;
     /*border radius for rounded corners*/
     border-radius: 5px;
@@ -52,6 +60,7 @@ p {
     background-color: #eee;
     width: 200px;
     padding-left: 4px;
+    margin-top: 5px;
     /*border radius for rounded corners*/
     border-radius: 5px;
 }
