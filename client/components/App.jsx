@@ -7,6 +7,8 @@ import Weather from './Weather'
 
 export default React.createClass({
   render() {
+    console.log(api);
+    //let test = api.photos[0].src.landscape
     let bgimage = 'https://drscdn.500px.org/photo/115449731/q%3D80_m%3D2000/c2da49bfa2da078ea2a3d2a9dfa8bff1'
 
     {/* -----------------------------------------------------------------------
@@ -28,10 +30,10 @@ export default React.createClass({
         height: '100%',
         backgroundImage: 'url(' + bgimage + ')',
         backgroundColor: 'transparent',
-        webkitBackgroundSize: 'cover',  /* webkit based browsers like chrome/safari */
-        mozBackgroundSize: 'cover',     /* mozilla */
-        oBackgroundSize: 'cover',       /* opera */
-        backgroundSize: 'cover',        /* the fall back command, and IE support */
+        WebkitBackgroundSize: 'cover'  /* webkit based browsers like chrome/safari */,
+        MozBackgroundSize: 'cover'     /* mozilla */,
+        OBackgroundSize: 'cover'       /* opera */,
+        backgroundSize: 'cover'        /* the fall back command, and IE support */,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
     }
