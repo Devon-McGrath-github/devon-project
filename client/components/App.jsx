@@ -22,6 +22,7 @@ export default React.createClass({
     return (
         <div style={backgroundImg} id='backgroundImage' className='fadein'>
             {/* <div className='fadein'> */}
+                <img width="200px" src={bgimage}></img>
                 <Weather />
                 <CenterContent />
                 <Todo_component />
