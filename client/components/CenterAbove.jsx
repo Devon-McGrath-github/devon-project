@@ -4,7 +4,7 @@ export default React.createClass({
   render() {
     return (
         <div id='center-above'>
-            <p>something</p>
+            {/* no text here use another component*/}
         </div>
     )
   }

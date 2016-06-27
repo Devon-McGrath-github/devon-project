@@ -36,10 +36,19 @@ p {
 }
 
 #center-above {
+  top: 0;
+}
 
+#center-above, #center-below {
+  left: 0;
+  text-align: center;
 }
 
 #center {
+  z-index: 4;
+}
+
+#center, #center-above, #center-below{
   display: block;
   top: 50%;
   left: 50%;
@@ -48,7 +57,27 @@ p {
   -webkit-transform: translate (-50%, -50%);
 }
 
-#
+#bottom {
+  width: 50%;
+  bottom: 0;
+  left: 50%;
+  opacity: 1;
+  -webkit-transform: translateX(-50%);
+}
+
+#bottom-left {
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#bottom-right {
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+
 
 
 
@@ -56,4 +85,5 @@ p {
 
 #top-left, #top-right, #center-above, #center-below, #bottom-left, #bottom, #bottom-right {
   position: absolute;
+  z-index: 3;
 }

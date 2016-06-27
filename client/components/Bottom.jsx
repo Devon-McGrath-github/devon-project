@@ -4,7 +4,7 @@ export default React.createClass({
   render() {
     return (
         <div id='bottom'>
-            <p>something</p>
+            {/* no text here */}
         </div>
     )
   }
