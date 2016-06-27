@@ -1,9 +1,14 @@
 import React from 'react'
 
 import api from '../api'
-import CenterContent from './CenterContent'
-import Todo_component from './Todo'
-import Weather from './Weather'
+import TopLeft from './TopLeft'
+import TopRight from './TopRight'
+import CenterAbove from './CenterAbove'
+import Center from './Center'
+import CenterBelow from './CenterBelow'
+import BottomLeft from './BottomLeft'
+import Bottom from './Bottom'
+import BottomRight from './BottomRight'
 
 export default React.createClass({
   render() {
@@ -21,15 +26,14 @@ export default React.createClass({
     console.log('app component rendering')
     return (
         <div style={backgroundImg} id='backgroundImage' className='fadein'>
-            {/* <div className='fadein'> */}
-                <Weather />
-                <CenterContent />
-                <Todo_component />
-
-                <div className='footer'>
-                    <h2>artist info</h2>
-                </div>
-            {/* </div> */}
+            <TopLeft />
+            <TopRight />
+            <CenterAbove />
+            <Center />
+            <CenterBelow />
+            <BottomLeft />
+            <Bottom />
+            <BottomRight />
         </div>
     )
   }

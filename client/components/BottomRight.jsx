@@ -2,9 +2,8 @@ import React from 'react'
 
 export default React.createClass({
   render() {
-    console.log('todo component rendering')
     return (
-        <div id='todo_container'>
+        <div id='bottom-right'>
             <h2>To Do List:</h2>
             <ul>
                 <li>placeholder</li>
