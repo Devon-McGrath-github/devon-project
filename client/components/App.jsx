@@ -23,7 +23,6 @@ export default React.createClass({
         backgroundRepeat: 'no-repeat',
     }
 
-    console.log('app component rendering')
     return (
         <div style={backgroundImg} id='backgroundImage' className='fadein'>
             <TopLeft />
