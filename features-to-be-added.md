@@ -6,3 +6,6 @@ Momentum is what is known as a “start screen replacement” extension. That me
 
 * The images are large, gorgeous, and Momentum is able to discern what time of day it is. That means when it’s night time, it’ll show you darker, night time images. It’s quite nice and worth a shot.
   - images change based on time of day
+
+7/09/16 - getting back to it
+* Unique users being able to use there own images.
